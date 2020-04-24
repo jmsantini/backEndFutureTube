@@ -17,35 +17,10 @@ Parte dos Users
 3. Pegar todos os usuários
 4. Trocar senha
 
-Parte dos videos
-1. Criar video
-2. Renderizar os videos
-3. Deletar um vido
-4. Alterar o video
-5. Pegar os detalhes do video
-6. Pegar videos por usuários
-
-
-## Instruções para rodar
-As instruções são:
-
-npm install para instalar todas as dependências;
-npm run start para rodar localmente o projeto
-npm run build para gerar uma versão possível de ser deployada com os arquivos transpilados para Javascript
-Utiliza o env com os dados:
-
-HOST=
-USER=
-PASSWORD=
-DATABASE=
-CLIENT=
-JWT_SECRET=
-ACCESS_TOKEN_TIME=12h
-REFRESH_TOKEN_TIME=24h
-
-## Contato
-João Marcelo Santini
-
-jmsantini@live.com
-
-(14) 99682-1388
+Parte dos vídeos
+1. Criar vídeo
+2. Renderizar os vídeos
+3. Apagar um vídeo
+4. Alterar o vídeo
+5. Pegar os detalhes do vídeo
+6. Pegar vídeos 
