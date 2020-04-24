@@ -17,14 +17,13 @@ Parte dos Users
 3. Pegar todos os usuários
 4. Trocar senha
 
-Parte dos videos
-1. Criar video
-2. Renderizar os videos
-3. Deletar um vido
-4. Alterar o video
-5. Pegar os detalhes do video
-6. Pegar videos por usuários
-
+Parte dos vídeos
+1. Criar vídeo
+2. Renderizar os vídeos
+3. Apagar um vídeo
+4. Alterar o vídeo
+5. Pegar os detalhes do vídeo
+6. Pegar vídeos por usuários
 
 ## Instruções para rodar
 As instruções são:
