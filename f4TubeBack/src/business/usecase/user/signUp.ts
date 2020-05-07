@@ -49,7 +49,6 @@ export class SignUpUC {
 
             const refreshToken = this.authenticationGateway.generateToken({
                 id: user.getId(),
-                userDevice: input.device
             }, process.env.REFRESH_TOKEN_TIME as string);
 
             await this.refreshTokenGateway.createRefreshToken({

@@ -7,5 +7,4 @@ export interface AuthenticationGateway {
 
 export interface UsersInfoForToken {
   id: string;
-  userDevice?: string;
 }

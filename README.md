@@ -23,6 +23,7 @@ Parte dos vídeos
 3. Apagar um vídeo
 4. Alterar o vídeo
 5. Pegar os detalhes do vídeo
+<<<<<<< HEAD
 6. Pegar vídeos por usuários
 
 ## Instruções para rodar
@@ -48,3 +49,6 @@ João Marcelo Santini
 jmsantini@live.com
 
 (14) 99682-1388
+=======
+6. Pegar vídeos 
+>>>>>>> 7ef3c5607508dd9ba46ed50f9e5801d48e4e0977

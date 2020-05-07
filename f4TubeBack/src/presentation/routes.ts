@@ -10,6 +10,7 @@ import { GetVideoDetailEndpoint } from "./endpoints/video/getVideoDetail";
 import { GetAllUserVideosEndpoint } from "./endpoints/video/getAllUserVideos";
 import { UpdatePasswordEndpoint } from "./endpoints/user/updatePassword";
 import cors from 'cors';
+import { getUserByIDEndpoint } from "./endpoints/user/getUserByID";
 
 const app = express();
 app.use(cors());
@@ -20,6 +21,7 @@ app.post("/signup", SignUpEndpoint);
 app.post("/login", LoginEndpoint);
 app.get("/users", GetAllUsersEndpoint);
 app.post("/changePassword", UpdatePasswordEndpoint);
+app.get("/userByID", getUserByIDEndpoint);
 
 // video
 app.post("/createVideo", CreateVideoEndpoint);

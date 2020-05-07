@@ -23,7 +23,6 @@ export class JwtAuthorizer implements AuthenticationGateway {
         const result = jwt.verify(token, this.JWT_SECRET) as UsersInfoForToken; // userId, type
         return {
             id: result.id,
-            userDevice: result.userDevice
         };
     }
 }
